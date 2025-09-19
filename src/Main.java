@@ -5,6 +5,9 @@ public class Main
         System.out.println(c);
         int hour = c.addDogs();
         System.out.println(c);
+        DogWalker w = new DogWalker(4, c);
+
+
     }
 
 }
